@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorPrimaryDark"
+
+    >
+
+    <TextView
+        android:layout_marginTop="40sp"
+        android:id="@+id/textId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:text="AAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAA"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_marginBottom="30sp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/trueId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:layout_marginBottom="50sp"
+            android:background="@color/colorAccent"
+            android:padding="10sp"
+            android:text="True"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/falseId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:layout_marginBottom="50sp"
+            android:background="@color/colorAccent"
+            android:padding="10sp"
+            android:text="False"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:text="score"
+
+        />
+
+    <ProgressBar
+
+        android:id="@+id/pBarId"
+        android:layout_width="200sp"
+        android:layout_height="25sp"
+        android:background="@color/white"
+        style = "@android:style/Widget.ProgressBar.Horizontal"
+
+        />
+
+</LinearLayout>
